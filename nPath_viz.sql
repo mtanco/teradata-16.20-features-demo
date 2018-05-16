@@ -7,7 +7,7 @@
 --for each customer, get their full page path
 --name=common_paths
 select 
-	path, count(*) as cnt
+	cast(path as varchar(250)), count(*) as cnt
 from nPath (
 	on mtanco.retail_sessions
 		partition by customerid, sessionid
