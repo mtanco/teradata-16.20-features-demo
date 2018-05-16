@@ -5,10 +5,11 @@
  * */
 
 --for each customer, get their full page path
+--common_paths
 select 
 	path, count(*) as cnt
 from nPath (
-	on retail_sessions
+	on mtanco.retail_sessions
 		partition by customerid, sessionid
 		order by tstamp
 	using
@@ -21,6 +22,7 @@ from nPath (
 )
 group by 1
 order by 2 desc;
+
 
 --
 --  path                                            cnt 
