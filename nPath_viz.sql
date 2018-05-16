@@ -5,7 +5,7 @@
  * */
 
 --for each customer, get their full page path
---common_paths
+--name=common_paths
 select 
 	path, count(*) as cnt
 from nPath (
