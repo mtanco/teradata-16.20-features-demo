@@ -1,14 +1,14 @@
 # Sample Code for Teradata 16.20
 
-Teradata 16.20 has new anlaytic capabilites. This repository is my personal testing area and playground and include data and scripts for features including:
+Teradata 16.20 has new analytic capabilities. This repository is a place to test and play with the following new features:
 
-* Running scripts in database
-* Running table operator
-* Time series aggregates
+* [Running scripts in database](in_db_scripts)
+* [Running table operators of Aster functions that now run natively in Teradat](in_db_operators)
+* [Time series aggregation](time_aggregate.sql)
 
 ## Getting Started
 
-This repo includes code and a small sample set for running nPath, sessionize, python in database, and time series aggregation.
+This repo includes code and a [small sample set](sample_data.csv) for running nPath, sessionize, python in database, and time series aggregation.
 
 ### Prerequisites
 
