@@ -2,7 +2,7 @@
 
 Teradata 16.20 has new analytic capabilities. This repository is a place to test and play with the following new features:
 
-* [Running scripts in database](in_db_scripts)
+* [Running scripts in database](in_db_scripts) - Available starting in 15.10
 * [Running table operators of Aster functions that now run natively in Teradat](in_db_operators)
 * [Time series aggregation](time_aggregate.sql)
 
